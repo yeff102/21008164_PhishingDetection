@@ -1,0 +1,38 @@
+# Virtual environment
+venv/
+.env/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Dataset and large data files
+data/*.csv
+data/*.npy
+data/*.pkl
+
+# Trained models
+models/*.pkl
+models/*.joblib
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Ignore all ZIP or compressed files
+*.zip
+*.tar.gz
+*.rar
