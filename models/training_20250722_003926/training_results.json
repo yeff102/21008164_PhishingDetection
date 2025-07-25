@@ -1,0 +1,64 @@
+{
+  "best_model": "XGBoost",
+  "best_score": 0.9979694667553616,
+  "timestamp": "20250722_003926",
+  "models": {
+    "Decision Tree": {
+      "best_params": {
+        "criterion": "entropy",
+        "max_depth": 10,
+        "min_samples_leaf": 4,
+        "min_samples_split": 10
+      },
+      "cv_score_mean": 0.9871905940438619,
+      "cv_score_std": 0.008614210487313272,
+      "val_score": 0.9911206063624852,
+      "use_scaled": false
+    },
+    "Random Forest": {
+      "best_params": {
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "n_estimators": 300
+      },
+      "cv_score_mean": 0.9965806807766263,
+      "cv_score_std": 0.0008355623495352065,
+      "val_score": 0.9973221206068241,
+      "use_scaled": false
+    },
+    "Logistic Regression": {
+      "best_params": {
+        "C": 1,
+        "penalty": "l2"
+      },
+      "cv_score_mean": 0.9873307912683528,
+      "cv_score_std": 0.0007076226820388887,
+      "val_score": 0.9890309842588203,
+      "use_scaled": true
+    },
+    "Naive Bayes": {
+      "best_params": {
+        "var_smoothing": 1e-09
+      },
+      "cv_score_mean": 0.8957080289865041,
+      "cv_score_std": 0.00015130897281173458,
+      "val_score": 0.898127852595455,
+      "use_scaled": true
+    },
+    "XGBoost": {
+      "best_params": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.1,
+        "max_depth": 7,
+        "n_estimators": 200,
+        "subsample": 0.9
+      },
+      "cv_score_mean": 0.997232833549646,
+      "cv_score_std": 0.004342844549787148,
+      "val_score": 0.9979694667553616,
+      "use_scaled": false
+    }
+  }
+}
