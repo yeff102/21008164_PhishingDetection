@@ -97,6 +97,7 @@ python scripts/preprocess.py
 
 ```bash
 python scripts/feat_extraction.py
+python scripts/new_feat_extraction.py
 ```
 
  **3. Train models**
