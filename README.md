@@ -100,13 +100,19 @@ python scripts/feat_extraction.py
 python scripts/new_feat_extraction.py
 ```
 
- **3. Train models**
+ **3. Split datasets**
+
+```bash
+python scripts/splitting.py
+```
+
+ **4. Train models**
 
 ```bash
 python scripts/model_training.py
 ```
 
- **4. Evaluate models**
+ **5. Evaluate models**
 
 ```bash
 python scripts/evaluate.py
